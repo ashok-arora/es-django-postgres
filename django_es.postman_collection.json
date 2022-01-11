@@ -1,0 +1,550 @@
+{
+	"info": {
+		"_postman_id": "cb5d33d2-2970-4fe5-a3af-0e9a8666d788",
+		"name": "django es",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/images",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"images"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get all images",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8080/api/images",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"images"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jan 2022 08:20:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, DELETE, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3161"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread.\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Fettuccine Alfredo\",\n        \"image_url\": \"http://dickinson-hettinger.info/lashawn\",\n        \"description\": \"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Pizza\",\n        \"image_url\": \"http://connelly-rau.com/jenna.deckow\",\n        \"description\": \"Fresh parsley, Italian sausage, shallots, garlic, sun-dried tomatoes and mozzarella cheese in an all-butter crust. With a side of mixed fruits.\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"French Toast\",\n        \"image_url\": \"http://harvey-turner.com/gregorio\",\n        \"description\": \"Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Chicken Wings\",\n        \"image_url\": \"http://corkery.info/teodoro\",\n        \"description\": \"Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Som Tam\",\n        \"image_url\": \"http://weissnat.co/lorenzo\",\n        \"description\": \"Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread.\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"California Maki\",\n        \"image_url\": \"http://jacobson.org/lorri.douglas\",\n        \"description\": \"Fresh Norwegian salmon, lightly brushed with our herbed Dijon mustard sauce, with choice of two sides.\"\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Teriyaki Chicken Donburi\",\n        \"image_url\": \"http://franecki-jakubowski.biz/filiberto\",\n        \"description\": \"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 11,\n        \"name\": \"French Fries with Sausages\",\n        \"image_url\": \"http://wilkinson.biz/isiah\",\n        \"description\": \"Three eggs with cilantro, tomatoes, onions, avocados and melted Emmental cheese. With a side of roasted potatoes, and your choice of toast or croissant.\"\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Tiramisù\",\n        \"image_url\": \"http://bradtke.com/lottie\",\n        \"description\": \"Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.\"\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Chicken Fajitas\",\n        \"image_url\": \"http://schulist-jacobson.name/maureen_goodwin\",\n        \"description\": \"Breaded fried chicken with waffles, and a side of maple syrup.\"\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Pierogi\",\n        \"image_url\": \"http://will.io/leana.kreiger\",\n        \"description\": \"Fresh Norwegian salmon, lightly brushed with our herbed Dijon mustard sauce, with choice of two sides.\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "add image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Chicken\",\n    \"description\": \"pak pak pakak\",\n    \"image_url\": \"http://abc.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/images",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "random food API call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://random-data-api.com/api/food/random_food",
+					"protocol": "https",
+					"host": [
+						"random-data-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"food",
+						"random_food"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "random food API call",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://random-data-api.com/api/food/random_food",
+							"protocol": "https",
+							"host": [
+								"random-data-api",
+								"com"
+							],
+							"path": [
+								"api",
+								"food",
+								"random_food"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jan 2022 10:56:54 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e0365d8a4c79cec37cfd9d1cbc69c73\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "377b0e1d-55b3-4a30-b770-8154a3087b91"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.002335"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15768000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6291,\n    \"uid\": \"dc6ef71b-5316-4965-8875-86288e372889\",\n    \"dish\": \"California Maki\",\n    \"description\": \"Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.\",\n    \"ingredient\": \"Nuts\",\n    \"measurement\": \"1/3 gallon\"\n}"
+				}
+			]
+		},
+		{
+			"name": "check ES server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9200"
+				}
+			},
+			"response": [
+				{
+					"name": "check ES server",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9200",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9200"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-elastic-product",
+							"value": "Elasticsearch"
+						},
+						{
+							"key": "Warning",
+							"value": "299 Elasticsearch-7.16.2-2b937c44140b6559905130a8650c64dbd0879cfb \"Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.\""
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "344"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Ashoks-Mac-mini.local\",\n    \"cluster_name\": \"elasticsearch_ashok\",\n    \"cluster_uuid\": \"GhjTwShVS8qOwL6Cda0BTw\",\n    \"version\": {\n        \"number\": \"7.16.2\",\n        \"build_flavor\": \"default\",\n        \"build_type\": \"tar\",\n        \"build_hash\": \"2b937c44140b6559905130a8650c64dbd0879cfb\",\n        \"build_date\": \"2021-12-18T19:42:46.604893745Z\",\n        \"build_snapshot\": false,\n        \"lucene_version\": \"8.10.1\",\n        \"minimum_wire_compatibility_version\": \"6.8.0\",\n        \"minimum_index_compatibility_version\": \"6.0.0-beta1\"\n    },\n    \"tagline\": \"You Know, for Search\"\n}"
+				}
+			]
+		},
+		{
+			"name": "check image index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9200/image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9200",
+							"path": [
+								"image"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-elastic-product",
+							"value": "Elasticsearch"
+						},
+						{
+							"key": "Warning",
+							"value": "299 Elasticsearch-7.16.2-2b937c44140b6559905130a8650c64dbd0879cfb \"Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.\""
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "content-length",
+							"value": "295"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"image\": {\n        \"aliases\": {},\n        \"mappings\": {\n            \"properties\": {\n                \"description\": {\n                    \"type\": \"text\",\n                    \"fields\": {\n                        \"raw\": {\n                            \"type\": \"keyword\"\n                        }\n                    }\n                },\n                \"id\": {\n                    \"type\": \"integer\"\n                },\n                \"image_url\": {\n                    \"type\": \"text\"\n                },\n                \"name\": {\n                    \"type\": \"text\",\n                    \"fields\": {\n                        \"raw\": {\n                            \"type\": \"keyword\"\n                        }\n                    }\n                }\n            }\n        },\n        \"settings\": {\n            \"index\": {\n                \"routing\": {\n                    \"allocation\": {\n                        \"include\": {\n                            \"_tier_preference\": \"data_content\"\n                        }\n                    }\n                },\n                \"number_of_shards\": \"1\",\n                \"provided_name\": \"image\",\n                \"creation_date\": \"1641894501724\",\n                \"number_of_replicas\": \"1\",\n                \"uuid\": \"gw0dI87BQC6YddpDyLFdKg\",\n                \"version\": {\n                    \"created\": \"7160299\"\n                }\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "search (description)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/search/?description=thick",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"search",
+								""
+							],
+							"query": [
+								{
+									"key": "description",
+									"value": "thick"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jan 2022 09:53:50 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "675"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread.\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "search (name)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/search/?name=tofu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "tofu"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "search (name)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/search/?name=tofu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"search",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "tofu"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jan 2022 09:56:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "675"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Stinky Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Tofu\",\n        \"image_url\": \"http://senger-schimmel.net/toney\",\n        \"description\": \"Thick slices of French toast bread.\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
